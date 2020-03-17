@@ -3,6 +3,11 @@
 The client-side code for https://hubs.mozilla.com/, a multi-user experience in WebVR. Built with
 [A-Frame](https://github.com/aframevr/aframe/).
 
+
+## hoops.net custom
+ when in dev mode, custom scene is available here `https://localhost:8080/src/assets/custom-scenes/Hoops.Net.glb`
+ when hosted on GitHub Pages it's `http://meta-meta.github.io/hubs/assets/custom-scenes/Hoops.Net.glb`   
+
 ## Getting Started
 
 To run the client, run:

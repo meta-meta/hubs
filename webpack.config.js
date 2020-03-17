@@ -328,6 +328,12 @@ module.exports = (env, argv) => ({
     ]),
     new CopyWebpackPlugin([
       {
+        from: "src/assets/custom-scenes/Hoops.Net.glb",
+        to: "assets/custom-scenes/Hoops.Net.glb"
+      }
+    ]),
+    new CopyWebpackPlugin([
+      {
         from: "src/hub.service.js",
         to: "hub.service.js"
       }
