@@ -265,9 +265,9 @@ let routerBaseName = document.location.pathname
   .slice(0, 2)
   .join("/");
 
-if (document.location.pathname.includes("hub.html")) {
-  routerBaseName = "/";
-}
+// if (document.location.pathname.includes("hub.html")) {
+//   routerBaseName = "/";
+// }
 
 // when loading the client as a "default room" on the homepage, use MemoryHistory since exposing all the client paths at the root is undesirable
 const history = routerBaseName === "/" ? createMemoryHistory() : createBrowserHistory({ basename: routerBaseName });

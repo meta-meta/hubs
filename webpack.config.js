@@ -322,6 +322,12 @@ module.exports = (env, argv) => ({
     }),
     new CopyWebpackPlugin([
       {
+        from: "src/404.html",
+        to: "404.html"
+      }
+    ]),
+    new CopyWebpackPlugin([
+      {
         from: "src/hub.service.js",
         to: "hub.service.js"
       }

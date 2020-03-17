@@ -40,6 +40,14 @@ npm run build
 
 and then upload the files in the `dist` folder to your hosting provider.
 
+### Hosting on GitHub Pages
+
+```
+npm run gh
+```
+
+Note: 
+
 If you are running your own servers, you can modify the environment variable
 `RETICULUM_SERVER` when building to point Hubs to your own infrastructure.
 
